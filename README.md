@@ -1,38 +1,20 @@
-## Welcome to GitHub Pages
-https://powcoding.github.io/etherpad-core/
+## 介绍
 
-You can use the [editor on GitHub](https://github.com/powcoding/etherpad-core/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### 什么是etherpad
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+etherpad是一款开源的、可支持多人实时编辑的web编辑器：[etherpad-lite](https://github.com/ether/etherpad-lite)
 
-### Markdown
+### etherpad-core是产生的背景
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+（1）etherpad内嵌了自己的一个编辑器ace editor，不支持接入第三方富文本编辑器
+（2）但是etherpad具备了完整的实时协作机制，包括：客户端、服务器端的模型设计，多人冲突的设计，对富文本格式的解析等
+（3）想基于第三方富文本编辑器实现多人实时协作的功能，业界并没有现成的方案
 
-```markdown
-Syntax highlighted code block
+### etherpad的交互模型
 
-# Header 1
-## Header 2
-### Header 3
+### etherpad-core做了什么？
 
-- Bulleted
-- List
+### todo
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/powcoding/etherpad-core/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+（1）etherpad-core初始化的api设计
+（2）强化etherpad的解析器：支持缩进（text-indent），分割线（hr），表格（table）...
