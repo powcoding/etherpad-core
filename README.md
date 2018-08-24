@@ -24,7 +24,7 @@ etherpad是一款开源的、可支持多人实时编辑的web编辑器：[ether
 
 ### Demo 
 - 接入[wangEditor](https://github.com/wangfupeng1988/wangEditor)
-![demo](https://raw.githubusercontent.com/powcoding/etherpad-core/master/doc/img/demo.gif)
+![demo](https://raw.githubusercontent.com/powcoding/etherpad-core/master/doc/img/demo-big.gif)
 
 ### todo
 
