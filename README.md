@@ -12,6 +12,7 @@ etherpad是一款开源的、可支持多人实时编辑的web编辑器：[ether
 
 - 客户端模型：[easysync-client](https://github.com/ether/etherpad-lite/blob/develop/doc/easysync/easysync-full-description.pdf)
 - 服务器端模型：[easysync-server](https://github.com/ether/etherpad-lite/blob/develop/doc/easysync/easysync-full-description.pdf)
+![etherpad的服务器端模型](https://raw.githubusercontent.com/powcoding/etherpad-core/master/doc/img/etherpad-server.png)
 - 基于富文本的数据协议：[changeset](https://github.com/ether/etherpad-lite/blob/develop/doc/api/changeset_library.md)
 
 ### 关于etherpad的解析器
