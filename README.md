@@ -31,7 +31,7 @@ etherpad是一款开源的、可支持多人实时编辑的web编辑器：[ether
 
 ### etherpad-core做了什么？
 
-- 【etherpad产生diff的2种方式】中的第1种方式，完全是etherpad自己的私有机制，没法接入第三方编辑器
+- [etherpad产生diff的2种方式](#etherpad产生diff的2种方式)中的第1种方式，完全是etherpad自己的私有机制，没法接入第三方编辑器
 - 但是利用第2种方式，不管第三方编辑器如何改变编辑器内容，只要让etherpad定时去检测到变化，就能生成diff，后续流程完全和原生etherpad一致
 - 将etherpad对内置编辑器的绑定解耦，通过设计api暴露出来，可绑定到第三方编辑器上。这样第三方编辑器就具备了和原生etherpad相同的整套实时协作编辑的能力
 - 不断强化etherpad的解析器。
