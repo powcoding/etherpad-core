@@ -37,7 +37,7 @@ etherpad是一款开源的、可支持多人实时编辑的web编辑器：[ether
 - 将etherpad对内置编辑器的绑定解耦，通过设计api暴露出来，可绑定到第三方编辑器上。这样第三方编辑器就具备了和原生etherpad相同的整套实时协作编辑的能力
 - 不断强化etherpad的解析器。
 
-### Demo 
+### demo 
 
 - 接入[wangEditor](https://github.com/wangfupeng1988/wangEditor)
 ![demo](https://raw.githubusercontent.com/powcoding/etherpad-core/master/doc/img/demo-big.gif)
