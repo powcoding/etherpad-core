@@ -1,4 +1,4 @@
-## 介绍[view on github pages](https://powcoding.github.io/etherpad-core/)
+## 介绍
 
 ### 什么是etherpad
 
