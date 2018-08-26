@@ -16,6 +16,7 @@ etherpad是一款开源的、可支持多人实时编辑的web编辑器：[ether
 
 ### 关于etherpad的解析器
 
+![etherpad的解析器](https://raw.githubusercontent.com/powcoding/etherpad-core/master/doc/img/etherpad-parser.png)
 
 ### etherpad产生diff的2种方式
 
